@@ -1,1 +1,1 @@
-/Users/phishing/exercism/rust/reverse-string/target/debug/reverse_string-e1a2f7ab15cab539: /Users/phishing/exercism/rust/reverse-string/src/lib.rs /Users/phishing/exercism/rust/reverse-string/src/main.rs /Users/phishing/exercism/rust/reverse-string/tests/reverse-string.rs
+/Users/phishing/exercism/rust/reverse-string/target/debug/reverse_string-e1a2f7ab15cab539: /Users/phishing/exercism/rust/reverse-string/src/main.rs /Users/phishing/exercism/rust/reverse-string/src/lib.rs /Users/phishing/exercism/rust/reverse-string/tests/reverse-string.rs
