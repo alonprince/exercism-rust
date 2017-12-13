@@ -1,20 +1,16 @@
 pub fn raindrops(n: usize) -> String {
-    let mut name = "".to_string();
-    let mut is_work = false;
+    let mut name = String::new();
     if n % 3 == 0 {
-        name = name + "Pling";
-        is_work = true;
+        name.push_str("Pling");
     }
     if n % 5 == 0 {
-        name = name + "Plang";
-        is_work = true;
+        name.push_str("Plang");
     }
     if n % 7 == 0 {
-        name = name + "Plong";
-        is_work = true;
+        name.push_str("Plong");
     }
-    if !is_work {
+    if name.is_empty() {
         name = n.to_string();
     }
-    name.to_string()
+    name
 }
