@@ -1,6 +1,6 @@
 extern crate bob;
 
 fn main() {
-  let result = bob::reply("Okay if like my  spacebar  quite a bit?   ");
+  let result = bob::reply("WHAT THE HELL WERE YOU THINKING?");
   println!("{}", result);
 }

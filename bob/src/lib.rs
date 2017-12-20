@@ -1,28 +1,11 @@
-enum MessageType {
-    Question,
-    Yell,
-    NoWords,
-    Other
-}
 
 pub fn reply(message: &str) -> &str {
-    match analyse_message_type(message) {
-        MessageType::Question => "Sure.",
-        MessageType::Yell => "Whoa, chill out!",
-        MessageType::NoWords => "Fine. Be that way!",
-        MessageType::Other => "Whatever."
-    }
-}
-
-fn analyse_message_type(message: &str) -> MessageType {
-    if is_yell(message) {
-        MessageType::Yell
-    } else if is_question(message) {
-        MessageType::Question
-    } else if is_no_words(message) {
-        MessageType::NoWords
-    } else {
-        MessageType::Other
+    match message {
+        ""                          => "Fine. Be that way!",
+        _ if is_yell(message)       => "Whoa, chill out!",
+        _ if is_question(message)   => "Sure.",
+        _ if is_no_words(message)   => "Fine. Be that way!",
+        _                           => "Whatever."
     }
 }
 
