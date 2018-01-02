@@ -1,0 +1,1 @@
+/Users/phishing/exercism/rust/series/target/debug/series-6bd5214939a64f4c: /Users/phishing/exercism/rust/series/src/lib.rs /Users/phishing/exercism/rust/series/src/main.rs /Users/phishing/exercism/rust/series/tests/series.rs
